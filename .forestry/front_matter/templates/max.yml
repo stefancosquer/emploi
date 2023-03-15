@@ -81,3 +81,5 @@ fields:
       file: 
       path: 
   label: Champ select fields
+pages:
+- src/test.md
