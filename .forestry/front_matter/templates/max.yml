@@ -91,5 +91,37 @@ fields:
     time_format: h:mm A ZZ
     display_utc: false
   default: now
+- name: champ_couleur
+  type: color
+  label: Champ couleur
+  config:
+    required: false
+    color_format: Hex
+  default: "#6F2929"
+- name: champ_tags
+  type: tag_list
+  default:
+  - tag1
+  - tag2
+  label: Champ tags
+- name: champ_liste_text
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: Champ liste texte
+- name: champ_liste_select
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: simple
+    options:
+    - valeur1
+    - valeur2
+  label: Champ liste select
 pages:
 - src/test.md
