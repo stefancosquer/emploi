@@ -136,5 +136,12 @@ fields:
   type: field_group
   config: {}
   label: Champ groupe
+- name: champ_groupe_repetable
+  type: field_group_list
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Champ groupe répétable
 pages:
 - src/test.md
