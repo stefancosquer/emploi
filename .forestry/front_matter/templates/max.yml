@@ -81,5 +81,15 @@ fields:
       file: src/test.md
       path: champ_select_ref
   label: Champ select fields
+- name: champ_date
+  type: datetime
+  label: Champ date
+  description: ''
+  config:
+    required: false
+    date_format: MM/DD/YYYY
+    time_format: h:mm A ZZ
+    display_utc: false
+  default: now
 pages:
 - src/test.md
