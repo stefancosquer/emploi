@@ -54,3 +54,30 @@ fields:
   showOnly:
     field: champ_toggle
     value: true
+- name: champ_select_ref
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: repertoire
+      file: 
+      path: 
+  label: Champ select reference
+  showOnly:
+    field: champ_select
+    value: valeur1
+- name: champ_select_fields
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: documents
+      section: repertoire
+      file: 
+      path: 
+  label: Champ select fields
