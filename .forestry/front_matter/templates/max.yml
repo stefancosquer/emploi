@@ -151,5 +151,10 @@ fields:
   config:
     min: 
     max: 
+- name: champ_include
+  type: include
+  config: {}
+  template: max
+  label: Champ include
 pages:
 - src/test.md
