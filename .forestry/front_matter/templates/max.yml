@@ -132,5 +132,9 @@ fields:
   type: image_gallery
   config: {}
   label: Champ gallerie
+- name: champ_groupe
+  type: field_group
+  config: {}
+  label: Champ groupe
 pages:
 - src/test.md
