@@ -1,4 +1,56 @@
 ---
 label: Max
 hide_body: false
-fields: []
+fields:
+- name: champ_texte
+  type: text
+  config:
+    required: true
+    min: 1
+    max: 2
+  label: Champ texte
+  description: La description du champ
+  default: Valeur par défaut
+- name: champ_texte_riche
+  type: textarea
+  default: Valeur par défaut
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: markdown
+    min: 1
+    max: 2
+  label: Champ texte riche
+  description: Description
+- name: champ_nombre
+  type: number
+  label: Champ nombre
+  description: Description du champ
+  default: 2
+  required: true
+  config:
+    min: 1
+    max: 2
+    step: 10
+    required: true
+- name: champ_toggle
+  type: boolean
+  label: Champ toggle
+- name: champ_select
+  type: select
+  default: valeur1
+  config:
+    required: false
+    options:
+    - valeur1
+    - valeur2
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Champ select custom
+  showOnly:
+    field: champ_toggle
+    value: true
