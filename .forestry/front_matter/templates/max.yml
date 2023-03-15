@@ -123,5 +123,14 @@ fields:
     - valeur1
     - valeur2
   label: Champ liste select
+- name: champ_upload
+  type: file
+  config:
+    maxSize: 64
+  label: Champ upload
+- name: champ_gallerie
+  type: image_gallery
+  config: {}
+  label: Champ gallerie
 pages:
 - src/test.md
