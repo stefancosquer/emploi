@@ -143,5 +143,13 @@ fields:
     max: 
     labelField: 
   label: Champ groupe répétable
+- name: champ_block
+  type: blocks
+  label: Champ block
+  template_types:
+  - max
+  config:
+    min: 
+    max: 
 pages:
 - src/test.md
