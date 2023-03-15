@@ -71,15 +71,15 @@ fields:
     value: valeur1
 - name: champ_select_fields
   type: select
-  default: []
+  default: ''
   config:
     required: false
     options: []
     source:
       type: documents
       section: repertoire
-      file: 
-      path: 
+      file: src/test.md
+      path: champ_select_ref
   label: Champ select fields
 pages:
 - src/test.md
