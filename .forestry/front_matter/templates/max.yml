@@ -156,5 +156,3 @@ fields:
   config: {}
   template: max
   label: Champ include
-pages:
-- src/test.md

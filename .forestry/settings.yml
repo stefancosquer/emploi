@@ -4,16 +4,15 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: document
+  path: test.md
+  label: Test
+  match: "**/*"
 - type: heading
   label: Heading
 - type: document
   path: src/truc.json
   label: Document
-  match: "**/*"
-- type: directory
-  path: src
-  label: Répertoire
-  create: all
   match: "**/*"
 upload_dir: static/uploads
 public_path: "/uploads"
