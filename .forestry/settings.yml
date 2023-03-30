@@ -5,8 +5,9 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
-  path: test.md
-  label: Test
+  path: README.md
+  label: README
+  match: "**/*"
 - type: heading
   label: Heading
 - type: document
