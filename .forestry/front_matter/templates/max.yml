@@ -151,6 +151,9 @@ fields:
   config:
     min: 
     max: 
+  showOnly:
+    field: champ_select
+    value: valeur1
 - name: champ_include
   type: include
   config: {}
